@@ -5,7 +5,7 @@
     <con:settings/>
     <con:definitionCache type="TEXT" rootPart=""/>
     <con:endpoints>
-      <con:endpoint>https://example.com</con:endpoint>
+      <con:endpoint>https://apan.com</con:endpoint>
     </con:endpoints>
     <con:environmentSpec>
       <con:entry environmentId="f626b85b-863b-4d89-a19a-5d7889202519">
