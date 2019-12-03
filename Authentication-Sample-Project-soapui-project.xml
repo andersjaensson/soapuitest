@@ -43,7 +43,7 @@ function fillpwd() {
 	window.setInterval(consent, 100);
 }
 
-if (document.getElementById('Email') &amp;&amp; document.getElementById('next')) {
+if (document.getElementById('E-mail') &amp;&amp; document.getElementById('next')) {
 	document.getElementById('Email').value = '${#Project#user}';
 	document.getElementById('next').click();
 	window.setTimeout(fillpwd, 100);
