@@ -185,7 +185,7 @@
             </con:method>
         </con:resource>
     </con:interface>
-    <con:testSuite id="f047a20d-f7e3-48cb-a407-326f76a6a581" name="Test Suite">
+    <con:testSuite id="f047a20d-f7e4-48cb-a407-326f76a6a581" name="Test Suite">
         <con:settings/>
         <con:savedRecentRuns>1</con:savedRecentRuns>
         <con:runType>SEQUENTIAL</con:runType>
