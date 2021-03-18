@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="de4551ca-7325-4dfb-af95-8213f3da13dd" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="http://google.com Test Case 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="de4551ca-7325-4dfb-af95-8213f3da13ddfileName">http%3A%2F%2Fgoogle.com-Test-Case-1</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="946ab130-4e43-4d87-9528-3d1ccb523f7f">
+    <con:settings/>
+    <con:config service="http://google.com" resourcePath="" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="144a5383-e9cf-4402-a36f-bba71374e0c8" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>http://google.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>http://www.google.com/</con:originalUri>
+        <con:assertion type="Valid HTTP Status Codes" id="e33bc464-24bb-42dc-a2e1-17c7fe05060a" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="a65d371d-3b29-49a2-9164-410d7883fb08" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

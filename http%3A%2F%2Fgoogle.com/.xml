@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="" id="e2e32833-8c91-4bb7-a171-b43661f12626" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e2e32833-8c91-4bb7-a171-b43661f12626fileName"/>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="ff67a3c3-01f1-44d6-aec0-401579bacb53" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=ISO-8859-1</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="144a5383-e9cf-4402-a36f-bba71374e0c8" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://google.com</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

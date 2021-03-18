@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="5bc96219-6378-4ddb-a86f-1613a577834f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://google.com" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="5bc96219-6378-4ddb-a86f-1613a577834ffileName">http%3A%2F%2Fgoogle.com</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>http://google.com</con:endpoint>
+  </con:endpoints>
+</con:interface>
